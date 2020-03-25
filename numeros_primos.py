@@ -1,6 +1,5 @@
 valor = int(input("Limite: "))
-for a in range(valor):
-	numero = a
+for numero in range(valor):
 	acierto = 0
 	for numero_primo in range(numero):
 		numero_primo = numero_primo+1
