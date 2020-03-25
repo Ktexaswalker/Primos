@@ -7,3 +7,5 @@ for numero in range(valor):
 			acierto += 1
 			if numero_primo == numero and acierto <= 2:
 				print(numero_primo, ",", end="")
+			elif acierto > 2:
+				break
